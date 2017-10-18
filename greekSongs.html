@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Τραγούδια ελληνικά</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="javaScript/greekSongs.js"></script>
+    <link rel="stylesheet" href="styles/greekSongsStyle.css">
+</head>
+<body>
+<div id="openingDiv">
+    <form>
+        <input id="songURL" type="text" placeholder="Add an URL for the youtube video">
+        <input id="songButton" type="button" value="Go">
+    </form>
+</div>
+<section id="videoSection">
+    <input id="startPlayback" type="button" value="Let's begin"/>
+</section>
+<section id="lyricsSection">
+    <form>
+        <input title="Song title" id="songTitle" placeholder="Title"/>
+        <textarea title="Lyrics" id="lyrics" placeholder="Paste your lyrics here"></textarea>
+    </form>
+</section>
+
+</body>
+</html>
